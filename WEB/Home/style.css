@@ -394,6 +394,11 @@ body {
 .menu-item:first-child{
   margin-right: auto;
   margin-left: 2rem;
+  max-width: 89px;
+}
+
+.logo{
+  max-width: 89px;
 }
 
 .btn-primary{
@@ -420,6 +425,7 @@ body {
   border-radius: var(--radius);
   display: flex;
   flex-direction: row;
+  overflow: hidden;
 }
 
 .c1-text{
@@ -473,5 +479,33 @@ body {
 
 .specs{
   display: flex;
-  
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.specs div{
+  flex: 1 1 0;
+  background: white;
+  box-shadow: 0px 0px 10px var(--clr-gray200);
+  margin: 1rem;
+  border-radius: var(--radius);
+  padding-bottom: 1rem;
+  overflow: hidden;
+}
+
+.specs div h2 {
+  padding: 0 1rem;
+}
+
+.specs div p{
+  padding: 0 1rem;
+}
+
+.specs div a{
+  padding: 0 1rem;
+}
+
+.specs div img{
+  width: 100%;
 }
