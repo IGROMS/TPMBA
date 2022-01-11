@@ -456,6 +456,7 @@ body {
 
 .c1-image img{
   width: 100%;
+  display: block;
 }
 
 .c1-button{
